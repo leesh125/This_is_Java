@@ -4,7 +4,7 @@
 <hr>
 
 <ul>
-  <li><a href="#">1장  - 자바 시작하기</a></li>
+  <li><a href="https://github.com/leesh125/This_is_Java/tree/master/this_is_java/chap01">1장  - 자바 시작하기</a></li>
   <li><a href="#">2장  - 변수와 타입</a></li>
   <li><a href="#">3장  - 연산자</a></li>
   <li><a href="#">4장  - 조건문과 반복문</a></li>
