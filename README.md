@@ -9,7 +9,7 @@
   <li><a href="https://github.com/leesh125/This_is_Java/tree/master/this_is_java/src/chap03">3장  - 연산자</a></li>
   <li><a href="https://github.com/leesh125/This_is_Java/tree/master/this_is_java/src/chap04">4장  - 조건문과 반복문</a></li>
   <li><a href="https://github.com/leesh125/This_is_Java/tree/master/this_is_java/src/chap05">5장  - 참조 타입</a></li>
-  <li><a href="#">6장  - 클래스</a></li>
+  <li><a href="https://github.com/leesh125/This_is_Java/tree/master/this_is_java/src/chap06">6장  - 클래스</a></li>
   <li><a href="#">7장  - 상속</a></li>
   <li><a href="#">8장  - 인터페이스</a></li>
   <li><a href="#">9장  - 중첩 클래스/인터페이스</a></li>
