@@ -37,7 +37,7 @@ public class PrintAnnotationExample {
 				 */
 				try {
 					method.invoke(new Service());
-				} catch (Exception e) {
+				} catch (Exception e) { 
 				} 
 				System.out.println();
 //				System.out.println(method.getName() + ": ");
