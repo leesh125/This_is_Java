@@ -1,5 +1,4 @@
 package chap07.sec07.exam07_instanceof;
-
 /* 
  * 강제 타입 변환(부모 클래스 -> 자식 클래스로)
  * 
