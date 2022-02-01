@@ -1,14 +1,5 @@
 package chap07.sec07.exam07_instanceof;
 
-/* 
- * 강제 타입 변환(부모 클래스 -> 자식 클래스로)
- * 
- * 조건 : 자식 타입이 부모 타입으로 변환되어 있는 상태에서만 가능
- * 
- * Parent parent = new Child();
- * Child child = parent;
- * 
- */
 public class InstanceofExample {
 
 	// 매개값으로 parent 뿐만 아니라 parent를 상속받은 child도 들어올 수 있음
