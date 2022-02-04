@@ -11,10 +11,15 @@ public class AccountExample {
 		
 		// 출금하기
 		try {
-			account.withdraw(1000);
+			account.withdraw(102310);
 			System.out.println("예금액:" + account.getBlanace());
 		} catch (BalanceInsufficientException e) {
+			String message = e.getMessage(); // 생성한 예외 메시지
+			System.out.println(message); 
+			System.out.println();
 			e.printStackTrace();
+			System.out.println();
+			System.out.println(e.toString());
 		}
 
 	}
