@@ -13,6 +13,7 @@ public class Account {
 		balance += money;
 	}
 	
+	// 예외 발생이 되는 메소드에 throws가 있어서 withdraw()를 호출하는 곳에서 try catch를 필수 작성해야함
 	public void withdraw(int money) throws BalanceInsufficientException{
 		if(balance<money) {
 			throw new BalanceInsufficientException(); // 예외 발생 시키기
