@@ -1,4 +1,4 @@
-package chap12.sec01_wrapper;
+package chap11.sec12.exam01_wrapper;
 
 public class StringToPrimitiveValueExample {
 
