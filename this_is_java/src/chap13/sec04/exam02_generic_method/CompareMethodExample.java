@@ -14,7 +14,7 @@ public class CompareMethodExample {
 		
 		Pair<String, String> p3 = new Pair<>("user1", "홍길동"); 
 		Pair<String, String> p4 = new Pair<>("user2", "홍길동");
-		boolean result2 = Util.compare(p3, p4); // 구체적 타입 지정(생략가능)
+		boolean result2 = Util.compare(p3, p4); // 구체적 타입 추정(생략가능)
 		if(result2) {
 			System.out.println("논리적으로 동등한 객체입니다.");
 		}else {
