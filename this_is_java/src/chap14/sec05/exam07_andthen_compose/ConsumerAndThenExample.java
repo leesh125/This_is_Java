@@ -1,0 +1,21 @@
+package chap14.sec05.exam07_andthen_compose;
+
+import java.util.function.Consumer;
+
+public class ConsumerAndThenExample {
+
+	public static void main(String[] args) {
+		Consumer<Member> consumerA = m -> {
+			System.out.println("consumerA: " + m.getName());
+		};
+		Consumer<Member> consumerB = m -> {
+			System.out.println("consumerA: " + m.getId());
+		};
+		
+		// andThen() : 앞에있는 것 먼저 실행 후 뒤에 것 실행
+		Consumer<Member> consumerAB = consumerA.andThen(consumerB);
+		consumerAB.accept(new Member("홍길동", "hong", null));
+
+	}
+
+}
