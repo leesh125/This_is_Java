@@ -1,4 +1,4 @@
-package chap16.sec05.stream_sorting;
+package chap16.sec06.stream_sorting;
 
 public class Student implements Comparable<Student>{
 	private String name;
