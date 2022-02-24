@@ -24,6 +24,10 @@ public class ReductionExample {
 		int sum3 = studentList.stream()
 				.mapToInt(Student::getScore)
 				.reduce(0,(a,b) -> a+b); // reduce(default, _): 값이 없으면 default
+		
+		System.out.println("sum1: " + sum1);
+		System.out.println("sum2: " + sum2);
+		System.out.println("sum3: " + sum3);
 	}
 
 }
