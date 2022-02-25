@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<ImageView fitWidth="400" fitHeight="500">
+			<image>
+				<Image url="@images/11223659_969010503157601_4319241685982588557_n.jpg" />
+			</image>
+		</ImageView>
+		<ImageView fitWidth="200" fitHeight="300">
+			<image>
+				<Image url="@images/12189963_189467861391711_627777799110954031_n.jpg" />
+			</image>
+		</ImageView>
+	</children>
+</StackPane>
+
