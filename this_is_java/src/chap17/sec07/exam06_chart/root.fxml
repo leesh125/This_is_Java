@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1"
+		prefWidth="950" prefHeight="300"
+		fx:controller="chap17.sec07.exam06_chart.RootController">
+	
+	<children>
+		<PieChart fx:id="pieChart"/>
+		<BarChart fx:id="barChart" >
+			<xAxis>
+				<CategoryAxis side="BOTTOM"/>
+			</xAxis>
+			<yAxis>
+				<NumberAxis side="LEFT"/>
+			</yAxis>
+		</BarChart>
+		<AreaChart fx:id="areaChart">
+			<xAxis>
+				<CategoryAxis side="BOTTOM"/>
+			</xAxis>
+			<yAxis>
+				<NumberAxis side="LEFT"/>
+			</yAxis>
+		</AreaChart>
+		
+	</children>
+	
+</HBox>
+

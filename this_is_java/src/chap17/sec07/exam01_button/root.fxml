@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+		prefHeight="150" prefWidth="420"
+		fx:controller="chap17.sec07.exam01_button.RootController">
+	
+	<padding>
+		<Insets topRightBottomLeft="10" />
+	</padding>
+	
+	<center>
+		<HBox alignment="CENTER" prefHeight="100" prefWidth="400" spacing="10">
+			<children>
+				<VBox prefWidth="100" prefHeight="100" spacing="20"
+						alignment="CENTER_LEFT">
+					<children>
+						<ChekBox fx:id="chk1" text="안경" onAction="#handleChkAction" />
+						<ChekBox fx:id="chk2" text="모자" onAction="#handleChkAction" />
+					</children>
+				</VBox>
+				
+				<ImageView fx:id="checkImageView" fitWidth="100" preserveRatio="true">
+					<image><Image url="@images/11223659_969010503157601_4319241685982588557_n.jpg" /></image>
+				</ImageView>
+				
+				<Seperator orientation="VERTICAL" prefHeight="100.0" />
+				
+				<VBox prefWidth="100" prefHeight="100" spacing="20"
+						alignment="CENTER_LEFT">
+					<fx:define><ToggleGroup fx:id="group"/></fx:define>
+					<children>
+						<RadioButton fx:id="rad1" text="BubbleChart" userData="BubbleChart"
+								toggleGroup="$group" />
+						<RadioButton fx:id="rad2" text="BarChart" userData="BarChart"
+								toggleGroup="$group" />
+						<RadioButton fx:id="rad3" text="AreaChart" userData="AreaChart"
+								toggleGroup="$group" />
+					</children>
+				</VBox>
+				
+				<ImageView fx:id="radioImageView" fitWidth="100" preserveRatio="true">
+					<image><Image url="@images/11223659_969010503157601_4319241685982588557_n.jpg" /></image>
+				</ImageView>
+				
+			</children>
+		</HBox>
+	</center>
+	
+	
+	
+	<bottom>
+		<Button fx:id="btnExit" BorderPane.alignment="CENTER"
+				onAction="#handleBtnExitAction">
+			<graphic>
+				<ImageView>
+					<Image url="@images/11223659_969010503157601_4319241685982588557_n.jpg" />
+				</ImageView>
+			</graphic>
+			<BorderPane.margin><Insets top="20.0"/></BorderPane.margin>
+		</Button>
+	</bottom>
+	
+</BorderPane>
+
