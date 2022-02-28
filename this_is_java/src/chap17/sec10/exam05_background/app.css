@@ -1,0 +1,29 @@
+#vbox1 {
+	-fx-background-color: rgba(0, 0, 0, 1);
+}
+
+#vbox2 {
+	-fx-background-color: linear-gradient(to right, #000000, #ffffff);
+}
+
+#vbox3 {
+	-fx-background-color: radial-gradient(center 50% 50%, radius 50%, #ffffff,#000000 );
+}
+
+#vbox4 {
+	-fx-border-color: skyblue;
+	-fx-background-image:url("images/11223659_969010503157601_4319241685982588557_n.jpg");
+}
+
+#vbox5 {
+	-fx-border-color: skyblue;
+	-fx-background-image:url("images/12189963_189467861391711_627777799110954031_n.jpg");
+	-fx-border-repeat: no-repeat;
+}
+
+#vbox6 {
+	-fx-border-color: skyblue;
+	-fx-background-image:url("images/12189963_189467861391711_627777799110954031_n.jpg");
+	-fx-border-repeat: no-repeat;
+	-fx-border-position: center;
+}
