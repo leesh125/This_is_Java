@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+	prefWidth="300" prefHeight="300">
+	
+	<center>
+		<PieChart id="pieChart" />
+	</center>
+	<bottom>
+		<HBox alignment="CENTER" prefHeight="50">
+			<children>
+				<Button id="btnClose" text="닫기"/>
+			</children>
+		</HBox>
+	</bottom>
+</BorderPane>
+
+
